@@ -1,0 +1,14 @@
+{
+  "name": "3adao-blog",
+  "private": true,
+  "type": "module",
+  "description": "Markdown source of truth for 3adao.org/blog",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node build.mjs --check",
+    "test": "node --test test/build.test.mjs"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
